@@ -14,17 +14,17 @@ Dataset Description
 
 Rows: Orders of products from various regions.
 
-&nbsp; 
+ 
 
-Columns: Order ID, Customer ID, Customer Name, Segment, Country, City, State, Postal Code, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit, Order Date, Ship Date, Ship Mode.  
+Columns: Order ID, Customer ID, Customer Name, Segment, Country, City, State, Postal Code, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit, Order Date, Ship Date, Ship Mode.
 
 
 
-Tools Used:  
+Tools Used:
 
-* Microsoft Excel – Data cleaning, pivot tables, and initial analysis  
-* MySQL Workbench – Aggregations and trends using SQL  
-* Power BI – Dashboard visualization and interactive reporting  
+* Microsoft Excel – Data cleaning, pivot tables, and initial analysis
+* MySQL Workbench – Aggregations and trends using SQL
+* Power BI – Dashboard visualization and interactive reporting
 
 
 
@@ -37,8 +37,9 @@ Tools Used:
 
 
 1. **SALES AND PROFIT OVERVIEW**
-1. 
-**Total Sales- 2.27 M** 
+2. 
+
+**Total Sales- 2.27 M**
 
 **Total Profit- 282.86K**
 
@@ -48,83 +49,85 @@ Tools Used:
 
 
 
-<b>2. Highest Sales Region- West</b>
+**2. Highest Sales Region- West**
 
-<b>sales: 713,471.45</b>
+**sales: 713,471.45**
 
-<b>profit: 106,021.47</b>
-
-
-
-
-
-<b>Lowest Sales Region- South</b>
-
-<b>sales:388,983.59</b>
-
-<b>profit:46,036</b>
-
-
-
-*Insight- The West region is the top performer with $713,471.45 sales and $106,021.47 profit, while the South region has the lowest sales ($388,983.59) and profit ($46,036). High-sales, low-profit regions may need review of pricing strategies or operational efficiency.*
+**profit: 106,021.47**
 
 
 
 
 
-<b>3. Category \& Sub-Category Analysis</b>
+**Lowest Sales Region- South**
 
-<b>Top Selling Category: Technology </b>
+**sales:388,983.59**
 
-<b>Sales Value: 835,900.14</b>
-
-
-
-<b>Top Sub-Category: Binders </b>
-
-<b>Sales Value: 5974</b>
+**profit:46,036**
 
 
 
-<b>Lowest Sub-Category: Copiers </b>
-
-<b>Sales Value: 234</b>
-
-
-
-*Insight- Technology is the top-selling category ($835,900.14 sales), with Binders as the top sub-category ($5,974 sales) and Copiers as the lowest ($234 sales), highlighting which product lines drive revenue and which may require attention.*
-
-
-
-<b>4. Top 5 States</b>
-
-<b>STATES         TOTAL SALES(USD)</b>
-
- 
-
-<b>California	457687.63</b>
-
-<b>New York	310876.27</b>
-
-<b>Pennsylvania	116511.91</b>
-
-<b>Texas	        170188.05</b>
-
-<b>Washington	138641.27</b>
+*Insight- The West region is the top performer with $713,471.45 sales and $106,021.47 profit, while the South region has the lowest sales ($388,983.59) and profit ($46,036). High-sales, low-profit regions may need review of pricing strategies or operational efficiency. Moreover, a very important insight found is that the furniture category in the central region has been witnessing significant loss $2,590 already. Immediate action needs to be taken to assess the plausible reasons.*
 
 
 
 
 
-*Insight- The top 5 revenue-generating states are California, New York, Pennsylvania, Texas, and Washington, indicating key markets contributing most to total sales.*
+**3. Category \& Sub-Category Analysis**
+
+**Top Selling Category: Technology** 
+
+**Sales Value: 835,900.14**
 
 
 
-**5. Profit trend over time**
+**Top Sub-Category: Binders** 
+
+**Sales Value: 5974**
 
 
 
-**YEAR           TOTAL PROFIT** 
+**Lowest Sub-Category: Copiers** 
+
+**Sales Value: 234**
+
+
+
+*Insight- Technology is the top-selling category ($835,900.14 sales), with Binders as the top sub-category ($5,974 sales) and Copiers as the lowest ($234 sales), highlighting which product lines drive revenue and which may require attention. Moreover, a very important insight found is that the furniture category in the central region has been witnessing significant loss $2,590 already. Immediate action needs to be taken to assess the plausible reasons.*
+
+
+
+
+
+**4. Top 5 States**
+
+**STATES         TOTAL SALES(USD)**
+
+
+
+**California	457687.63**
+
+**New York	310876.27**
+
+**Pennsylvania	116511.91**
+
+**Texas	        170188.05**
+
+**Washington	138641.27**
+
+
+
+
+
+*Insight-The top 5 revenue-generating states are California, New York, Texas, Pennsylvania, and Washington, contributing most to total sales. California leads significantly, indicating a strong market, while the other states also show substantial sales, highlighting key regions for focused marketing and growth strategies.*
+
+
+
+<b>5. Profit trend over time</b>
+
+
+
+**YEAR           TOTAL PROFIT**
 
 **2014             49044.48**
 
@@ -136,32 +139,30 @@ Tools Used:
 
 
 
-*Insight- Profit shows a steady increase from $49,044.48 in 2014 to $92,775.45 in 2017, reflecting growth over the years and highlighting the effectiveness of business strategies over time.*
+*Insight- Profit shows a steady increase from $49,044.48 in 2014 to $92,775.45 in 2017, reflecting consistent growth over the years. This upward trend indicates the \*\*effectiveness of business strategies, improved operational efficiency, and growing market demand\*\*, suggesting that the company has successfully expanded its revenue streams while managing costs effectively.*
 
 
 
-   
+
+
+**-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 
 
 
-<b>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b>
+**DASHBOARD OVERVIEW**
 
 
 
-<b>DASHBOARD OVERVIEW</b>
+**The Power BI dashboard includes:**  
 
 
 
-<b>The Power BI dashboard includes:  </b>
-
-
-
-1. <b>Total Sales \& Profit KPIs </b>
-2. <b>Sales \& Profit by Region  </b>
-3. <b>Sales \& Profit by Category  </b>
-4. <b>Sales \& Profit by Segment  </b>
-5. <b>Monthly Sales \& Profit Trend  </b>
-6. <b>Interactive Slicers: Region \& Category  </b>
+1. **Total Sales \& Profit KPIs** 
+2. **Sales \& Profit by Region**  
+3. **Sales \& Profit by Category**  
+4. **Sales \& Profit by Segment**  
+5. **Monthly Sales \& Profit Trend**  
+6. **Interactive Slicers: Region \& Category**  
 
 
 

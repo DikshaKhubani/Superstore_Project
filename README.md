@@ -75,19 +75,19 @@ Tools Used:
 
 **3. Category \& Sub-Category Analysis**
 
-**Top Selling Category: Technology** 
+**Top Selling Category: Technology**
 
 **Sales Value: 835,900.14**
 
 
 
-**Top Sub-Category: Binders** 
+**Top Sub-Category: Binders**
 
 **Sales Value: 5974**
 
 
 
-**Lowest Sub-Category: Copiers** 
+**Lowest Sub-Category: Copiers**
 
 **Sales Value: 234**
 
@@ -123,7 +123,7 @@ Tools Used:
 
 
 
-<b>5. Profit trend over time</b>
+**5. Profit trend over time**
 
 
 
@@ -153,16 +153,16 @@ Tools Used:
 
 
 
-**The Power BI dashboard includes:**  
+**The Power BI dashboard includes:**
 
 
 
-1. **Total Sales \& Profit KPIs** 
-2. **Sales \& Profit by Region**  
-3. **Sales \& Profit by Category**  
-4. **Sales \& Profit by Segment**  
-5. **Monthly Sales \& Profit Trend**  
-6. **Interactive Slicers: Region \& Category**  
+1. **Total Sales \& Profit KPIs**
+2. **Sales \& Profit by Region**
+3. **Matrix of Region and Category by sales**
+4. **Sales \& Profit by Segment**
+5. **Monthly Sales \& Profit Trend**
+6. **Interactive Slicers: Region \& Category**
 
 
 
